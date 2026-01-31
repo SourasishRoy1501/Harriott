@@ -1,0 +1,445 @@
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+test-output/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================================
+
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.virtualenv/
+virtualenv/
+
+# ============================================================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ============================================================================
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Secrets
+secrets/
+*.key
+*.pem
+*.cert
+*.crt
+credentials.json
+service-account.json
+
+# API Keys
+api_keys.txt
+openai_key.txt
+supabase_key.txt
+
+# ============================================================================
+# IDEs & EDITORS
+# ============================================================================
+
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+.emacs.desktop
+.emacs.desktop.lock
+
+# Visual Studio
+.vs/
+
+# ============================================================================
+# JUPYTER NOTEBOOKS
+# ============================================================================
+
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+*.ipynb
+
+# Jupyter Notebook metadata
+.jupyter/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# ============================================================================
+# DATABASES
+# ============================================================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# PostgreSQL
+*.sql.dump
+*.backup
+
+# Database migrations (keep tracked, but backup files)
+*_backup.sql
+db_dump_*.sql
+
+# ============================================================================
+# LOGS & DEBUGGING
+# ============================================================================
+
+# Log files
+logs/
+*.log
+log/
+*.log.*
+
+# Debug logs
+debug.log
+error.log
+access.log
+
+# LangChain/LangSmith
+.langchain/
+.langsmith/
+langchain_cache/
+
+# Application logs
+app.log
+application.log
+rca_agent.log
+*.log
+
+# ============================================================================
+# DATA FILES
+# ============================================================================
+
+# Data directories
+data/
+raw_data/
+processed_data/
+datasets/
+
+# CSV/Excel files (if generated)
+*.csv
+*.xlsx
+*.xls
+!data/sample/*.csv
+!data/sample/*.xlsx
+
+# Parquet files
+*.parquet
+
+# JSON data (keep schemas)
+data/*.json
+!data/schema.json
+
+# ============================================================================
+# PROJECT SPECIFIC - HARRIOT SOA
+# ============================================================================
+
+# Temporary analysis outputs
+temp/
+tmp/
+outputs/
+analysis_results/
+rca_outputs/
+
+# Generated reports
+reports/
+*.pdf
+*.docx
+
+# Cache directories
+cache/
+.cache/
+
+# Agent state/checkpoints
+checkpoints/
+agent_state/
+*.checkpoint
+
+# Test outputs
+test_outputs/
+test_results/
+
+# Analysis artifacts
+*.pkl
+*.pickle
+analysis_*.json
+
+# Model weights/checkpoints (if any)
+models/
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Embeddings cache
+embeddings/
+.embeddings/
+
+# Vector stores
+vector_store/
+faiss_index/
+chromadb/
+
+# ============================================================================
+# OS SPECIFIC
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# BUILD & DEPLOYMENT
+# ============================================================================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Kubernetes
+*.kubeconfig
+
+# CI/CD
+.github/workflows/secrets.yml
+
+# ============================================================================
+# DOCUMENTATION (Generated)
+# ============================================================================
+
+# Sphinx build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ============================================================================
+# MISC
+# ============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if any frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Keep important empty directories
+!.gitkeep
+
+# ============================================================================
+# EXCEPTIONS (Files to KEEP in git)
+# ============================================================================
+
+# Keep example/template files
+!.env.example
+!config.example.json
+!sample_data/
+
+# Keep documentation
+!docs/**/*.md
+!README.md
+!*.md
+
+# Keep requirements
+!requirements.txt
+!requirements-dev.txt
+!Pipfile
+
+# Keep configuration templates
+!config/settings.example.py
