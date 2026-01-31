@@ -18,6 +18,7 @@ class Settings(BaseSettings):
 
     gemini_model: str = "gemini-2.5-flash"
     gemini_api_key: str
+    gemini_api_key_1: str
     
     # LangSmith (optional)
     langchain_tracing_v2: bool = False
