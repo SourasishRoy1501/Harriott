@@ -21,6 +21,8 @@ from src.models.schemas import (
     ActionType
 )
 
+import re
+
 
 class ImpactPredictorAgent:
     """

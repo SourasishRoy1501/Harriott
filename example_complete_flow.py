@@ -14,7 +14,7 @@ from src.agents.impact_predictor_agent import predict_action_impact
 from src.models.schemas import AgeSegment
 
 # Configuration
-PROPERTY_ID = "97e0f2d2-fc8e-48d4-91c5-9c77cbc4b12c"  # Replace with your property
+PROPERTY_ID = "87085c36-4993-40d8-a3e8-3ef8985b235c"  # Replace with your property
 ANALYSIS_DATE = date(2026, 1, 29)
 LOOKBACK_DAYS = 30
 TARGET_SEGMENT = AgeSegment.YOUNG_PROFESSIONAL  # 26-35 age group

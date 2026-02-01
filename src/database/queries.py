@@ -136,7 +136,7 @@ def calculate_occupancy_drop(
             "second_period_avg": round(avg_second, 2),
             "drop_percentage": round(drop_percentage, 2),
             "drop_ratio": round(drop_ratio, 2),
-            "trend": "declining" if drop_percentage > 5 else "stable"
+            "trend": "declining" if drop_percentage > 0 else "stable"
         }
     except Exception as e:
         logger.error(f"Error calculating occupancy drop: {e}")
